@@ -30,7 +30,7 @@ def finance(salary,needs_percnt=0.5,wants_percnt=0.2,savings_percnt=0.3):
         "Debt Repayment": savings_amount * 0.1,
     }
     print(f"Monthly Salary: ₹{salary}")
-    print("\nNeeds ({}%:",format(int(needs_percnt * 100)))
+    print("\nNeeds ({}%):".format(int(needs_percnt * 100)))
     for item, amount in needs_breakdown.items():
         print(f"  {item}: ₹{amount:.2f}")
 
